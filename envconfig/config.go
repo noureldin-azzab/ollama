@@ -201,7 +201,7 @@ var (
 	// Enable the new Ollama engine
 	NewEngine = Bool("OLLAMA_NEW_ENGINE")
 	// ContextLength sets the default context length
-	ContextLength = Uint("OLLAMA_CONTEXT_LENGTH", 4096)
+	ContextLength = Uint("OLLAMA_CONTEXT_LENGTH", 0)
 	// Auth enables authentication between the Ollama client and server
 	UseAuth = Bool("OLLAMA_AUTH")
 	// Enable Vulkan backend
